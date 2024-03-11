@@ -21,11 +21,11 @@ const FeatureGame = () => {
 
     return (
         <main>
-            <div className="featuregame relative flex flex-col items-center" style={{ flexGrow: 1, fontFamily:"sans-serif" }}>
+            <div className="featuregame relative flex flex-col items-center" style={{ flexGrow: 1}}>
                 <Image src={"/featuregamebg.jpg"} alt={"background"} layout={"fill"} objectFit={"cover"} className={"featuregamebg"} />
                 <div className="overlay relative flex-grow bg-gray-800 opacity-90 flex flex-col justify-center items-center w-100">
                     <h1 className="heading text-white font-bold flex items-center justify-center p-5"
-                        style={{ letterSpacing: "4px", fontSize: "28px",}}
+                        style={{ letterSpacing: "6px", fontSize: "33px", fontFamily:"Rubik"}}
                     >
                         FEATURED GAMES
                     </h1>
@@ -46,8 +46,8 @@ const FeatureGame = () => {
                                 {hoveredIndex === index && (
                                     <div className="absolute inset-0 bg-blue-200 opacity-95 flex items-center justify-center">
                                         <div className="text-black text-center">
-                                            <h2 className="font-bold mb-2">{title}</h2>
-                                            <p>{description}</p>
+                                            <h2 className="font-bold mb-2" style={{fontSize:"25px", fontFamily:"Rubik"}}>{title}</h2>
+                                            <p style={{fontFamily:"Karla"}}>{description}</p>
                                         </div>
                                     </div>
                                 )}
@@ -56,16 +56,16 @@ const FeatureGame = () => {
                     </div>
                     <div className="flex items-center justify-center my-10">
                         <button className="games font-bold p-3 text-white"
-                                style={{border: "1px solid white", fontSize:"14px", width:"280px", letterSpacing:"1px"}}
+                                style={{border: "1px solid white", fontSize:"14px", width:"280px", letterSpacing:"1px", fontFamily:"Karla"}}
                         >
                             CHECK OUT ALL OUR GAMES
                         </button>
                     </div>
                     <div className="getgames mb-10">
                         <div className="relative my-10">
-                            <div className="absolute left-0 top-1/2 transform -translate-y-1/2 w-1/4 h-px bg-white"></div>
-                            <h1 className="text-white text-center" style={{ fontSize: "15px" }}>GET OUR GAMES HERE</h1>
-                            <div className="absolute right-0 top-1/2 transform -translate-y-1/2 w-1/4 h-px bg-white"></div>
+                            {/*<div className="absolute left-0 top-1/2 transform -translate-y-1/2 w-1/4 h-px bg-white"></div>*/}
+                            <h1 className="text-white text-center" style={{ fontSize: "25px", fontFamily:"Rubik", letterSpacing:"3px" }}>GET OUR GAMES HERE</h1>
+                            {/*<div className="absolute right-0 top-1/2 transform -translate-y-1/2 w-1/4 h-px bg-white"></div>*/}
                         </div>
                         <div className="gamesapp flex gap-40 cursor-pointer">
                             <Image src={"/GOG1.svg"} alt="gog1" width={100} height={100} className="gog"/>
