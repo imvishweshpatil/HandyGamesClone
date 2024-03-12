@@ -6,7 +6,7 @@ const AboutUs = () => {
     return (
         <main>
             <main>
-                <div className="container">
+                <div className="container" style={{marginTop:"150px"}}>
                     <div className="flex justify-center items-center m-8 p-4 font-bold">
                         <h1 className="header text-center font-bold" style={{fontSize:"40px", fontFamily:"Rubik", letterSpacing:"1px"}}>All-new 48MP Main Camera. <br/> For breathtaking, smile. <br/> making picture taking.</h1>
                     </div>

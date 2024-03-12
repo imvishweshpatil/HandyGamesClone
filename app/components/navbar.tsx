@@ -8,10 +8,10 @@ import {MagnifyingGlassIcon} from "@heroicons/react/24/outline";
 const Navbar = () => {
     return (
         <Popover>
-            <div className="header-container fixed w-full flex top-0 items-center z-50">
-                <Image src={"/kidalogo.png"} alt={"KIDAStudios"} className="kidalogo" width={90} height={90} style={{margin:"20px"}}/>
-                {/*<div className="grow">
-                    <div className={"hidden text-white sm:flex p-5"}>
+            <div className="header-container fixed w-full flex top-0 items-center bg-black p-0 z-50">
+                <Image src={"/kidalogo.png"} alt={"KIDAStudios"} className="kidalogo" width={55} height={55} style={{margin:"20px"}}/>
+                <div className="grow" style={{fontFamily:"Eczar", letterSpacing:"5px"}}>
+                    <div className={"hidden text-white sm:flex"}>
                         <button className="ml-4">HOME</button>
                         <button className="ml-4">GAMES</button>
                         <button className="ml-4">PUBLISHING</button>
@@ -31,10 +31,10 @@ const Navbar = () => {
 
 
                 <Popover.Panel focus className={"absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden"}>
-                    <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 divide-y-2 divide-gray-50 w-100 h-100" style={{backgroundColor:"#8ed1fc"}}>
+                    <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 divide-y-2 divide-gray-50 w-100 h-100 bg-white"> {/*style={{backgroundColor:"#8ed1fc"}}*/}
                         <div className="px-5 pt-5 pb-6">
                             <div className="flex items-center justify-between">
-                                <Image src={"/handygamelogo.png"} alt={"handygames"} width={100} height={100}/>
+                                <Image src={"/kidalogo.png"} alt={"handygames"} width={50} height={50}/>
                                 <div className="-mr-2">
                                     <Popover.Button className={"inline-flex items-center justify-center rounded-md p-2 bg-white text-gray-400 hover:bg-gray-500 focus:outline-none focus:ring-2 focus ring-inset foucs:ring-indigo-500"}>
                                         <span className={"sr-only"}>Close Menu</span>
@@ -57,7 +57,7 @@ const Navbar = () => {
                 </Popover.Panel>
                 <div className="hidden sm:block">
                     <MagnifyingGlassIcon className="icons h-6 w-6 text-white" style={{marginRight:"20px"}}></MagnifyingGlassIcon>
-                </div>*/}
+                </div>
             </div>
         </Popover>
     );
