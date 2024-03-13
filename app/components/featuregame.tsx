@@ -32,7 +32,7 @@ const FeatureGame = () => {
                     </div>
 
                     <div className="games flex flex-column items-center justify-center mt-20">
-                        <div className="gamesapp row gap-4">
+                        <div className="gamesapp row gap-4" style={{margin:"80px"}}>
                             <div className="col flex flex-column items-center justify-center">
                                 <Image
                                     src={"/Tap-Shap.png"}
@@ -44,17 +44,17 @@ const FeatureGame = () => {
                                 />
                                 <h1 className="game-title font-extrabold mt-4"
                                     style={{fontFamily:"Rubik", fontSize:"60px"}}>
-                                    Tap-Shap
+                                    Tap Shap
                                 </h1>
                                 <p className="game-description font-extrabold"
                                    style={{fontSize:"22px", fontFamily:"Rubik"}}
                                 >
-                                    The Worlds 1st Multi-platform Reaction
+                                    The Worlds 1st Multi-Platform
                                     <span className="flex items-center justify-center">
-                                        Game
+                                        Reaction Game
                                     </span>
                                 </p>
-                                <div className="getgames flex items-center justify-center gap-4">
+                                <div className="getgames flex items-center justify-center gap-4 mt-3">
                                     <Image
                                         src={"/appstore.png"}
                                         alt={"appstore"}
@@ -70,13 +70,6 @@ const FeatureGame = () => {
                                         style={{width:"30px", height:"30px"}}
                                     />
                                     <Image
-                                        src={"/steam.png"}
-                                        alt={"appstore"}
-                                        width={100}
-                                        height={100}
-                                        style={{width:"30px", height:"30px"}}
-                                    />
-                                    <Image
                                         src={"/amazon.png"}
                                         alt={"appstore"}
                                         width={100}
@@ -84,8 +77,15 @@ const FeatureGame = () => {
                                         style={{width:"30px", height:"30px"}}
                                     />
                                     <Image
+                                        src={"/steam.png"}
+                                        alt={"steam"}
+                                        width={100}
+                                        height={100}
+                                        style={{width:"30px", height:"30px"}}
+                                    />
+                                    <Image
                                         src={"/microsoft.png"}
-                                        alt={"appstore"}
+                                        alt={"microsoft"}
                                         width={100}
                                         height={100}
                                         style={{width:"30px", height:"30px"}}
@@ -114,7 +114,7 @@ const FeatureGame = () => {
                                         never before
                                     </span>
                                 </p>
-                                <div className="getgames flex items-center justify-center gap-4">
+                                <div className="getgames flex items-center justify-center gap-4 mt-3">
                                     <Image
                                         src={"/appstore.png"}
                                         alt={"appstore"}
@@ -125,6 +125,27 @@ const FeatureGame = () => {
                                     <Image
                                         src={"/playstore.png"}
                                         alt={"appstore"}
+                                        width={100}
+                                        height={100}
+                                        style={{width:"30px", height:"30px"}}
+                                    />
+                                    <Image
+                                        src={"/amazon.png"}
+                                        alt={"appstore"}
+                                        width={100}
+                                        height={100}
+                                        style={{width:"30px", height:"30px"}}
+                                    />
+                                    <Image
+                                        src={"/steam.png"}
+                                        alt={"steam"}
+                                        width={100}
+                                        height={100}
+                                        style={{width:"30px", height:"30px"}}
+                                    />
+                                    <Image
+                                        src={"/microsoft.png"}
+                                        alt={"microsoft"}
                                         width={100}
                                         height={100}
                                         style={{width:"30px", height:"30px"}}
