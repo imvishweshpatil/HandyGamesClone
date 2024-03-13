@@ -49,7 +49,7 @@ const FeatureGame = () => {
                                 <p className="game-description font-extrabold"
                                    style={{fontSize:"22px", fontFamily:"Rubik"}}
                                 >
-                                    The World's 1st Multi-platform Reaction
+                                    The Worlds 1st Multi-platform Reaction
                                     <span className="flex items-center justify-center">
                                         Game
                                     </span>
