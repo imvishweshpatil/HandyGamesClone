@@ -179,12 +179,12 @@
 
     .startupindia {
         width: 100px !important;
-        margin: 0 0 0 -15px !important;
+        margin: 0 !important;
     }
 
     .number {
         font-size: 8px !important;
-        margin: 0 0 0 -15px !important;
+        margin: 0 !important;
     }
 
     .footerlogo1 {
@@ -195,7 +195,6 @@
 
     .duns {
         width: 55px !important;
-        margin-left: -10px !important;
     }
 }
 
@@ -355,12 +354,12 @@
 
     .startupindia {
         width: 100px !important;
-        margin: 0 0 0 -15px !important;
+        margin: 0 0 0 0 !important;
     }
 
     .number {
         font-size: 8px !important;
-        margin: 0 0 0 -15px !important;
+        margin: 0 0 0 0 !important;
     }
 
     .footerlogo1 {
@@ -371,7 +370,7 @@
 
     .duns {
         width: 55px !important;
-        margin-left: -10px !important;
+        margin-left: 0 !important;
     }
 }
 
