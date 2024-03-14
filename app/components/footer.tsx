@@ -10,13 +10,13 @@ const Footer = () => {
                     <div className="about">
                         <button className="career text-black m-2 font-bold" style={{ fontSize:"18px", fontFamily:"Rubik"}}>CAREERS</button>
                         <button className="contact text-black m-2 font-bold" style={{ fontSize:"18px", fontFamily:"Rubik"}}>CONTACT US</button>
-                        <p className="text-black m-2" style={{ fontSize: "12px", fontFamily:"Karla" }}>© 2023 KIDA Studios. All Rights Reserved. KIDA Studios,<br /> kidastudios.com and the KIDA Studios logo are trademarks <br /> of KIDA Studios in India and/or other countries.</p>
+                        <p className="trademark text-black m-2" style={{ fontSize: "12px", fontFamily:"Karla" }}>© 2023 KIDA Studios. All Rights Reserved. KIDA Studios,<br /> kidastudios.com and the KIDA Studios logo are trademarks <br /> of KIDA Studios in India and/or other countries.</p>
                     </div>
                 </div>
                 <div className="registration flex">
                     <div className="certification m-4 font-bold" style={{fontFamily:"Rubik"}}>
-                        <Image src={"/startupindia.png"} alt={"startupindia"} width={160} height={160}/>
-                        <p className="text-black" style={{ fontSize: "14px" }}>Certificate Number <br />DIPP12619</p>
+                        <Image src={"/startupindia.png"} alt={"startupindia"} width={160} height={160} className={"startupindia"}/>
+                        <p className="number text-black" style={{ fontSize: "14px" }}>Certificate Number <br />DIPP12619</p>
                     </div>
                     <div className="duns m-4">
                         <Image src={"/duns.png"} alt={"duns"} width={100} height={100}/>
