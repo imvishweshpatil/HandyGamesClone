@@ -146,37 +146,55 @@
         letter-spacing: 1px !important;
     }
 
+    .footer {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .footer {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
     .footerlogo {
-        width: 35px !important;
-        height: 35px !important;
-        margin: 0 !important;
+        display: none;
     }
 
     .career {
-        font-size: 3px !important;
-        font-weight: bolder;
+        font-size: 12px !important;
+        margin: 0 25px 0 0 !important;
     }
 
     .contact {
-        font-size: 3px !important;
-        font-weight: bolder;
+        font-size: 12px !important;
+        margin: 0 25px 0 0 !important;
     }
 
     .trademark {
-        font-size: 4px !important;
+        font-size: 10px !important;
         font-weight: 900 !important;
+        width: 100% !important;
+        margin: 0 !important;
     }
 
     .startupindia {
-        width: 70px !important;
+        width: 100px !important;
+        margin: 0 0 0 -15px !important;
     }
 
     .number {
-        font-size: 5px !important;
+        font-size: 8px !important;
+        margin: 0 0 0 -15px !important;
+    }
+
+    .footerlogo1 {
+        display: flex;
+        width: 55px !important;
+        height: 50px !important;
     }
 
     .duns {
-        width: 70px !important
+        width: 55px !important
     }
 }
 
@@ -308,44 +326,50 @@
         letter-spacing: 1px !important;
     }
 
-
-    /*.footer {
+    .footer {
         display: flex !important;
         flex-direction: column !important;
-        !*align-items: center !important;
-        justify-content: center !important;*!
-        padding: 20px;
-    }*/
+    }
 
     .footerlogo {
-        width: 35px !important;
-        height: 35px !important;
-        margin: 0 !important;
+        display: none;
     }
 
     .career {
-        font-size: 5px !important;
+        font-size: 12px !important;
+        margin: 0 25px 0 0 !important;
     }
 
     .contact {
-        font-size: 5px !important;
+        font-size: 12px !important;
+        margin: 0 25px 0 0 !important;
     }
 
     .trademark {
-        font-size: 5px !important;
+        font-size: 10px !important;
         font-weight: 900 !important;
+        width: 100% !important;
+        margin: 0 !important;
     }
 
     .startupindia {
-        width: 70px !important;
+        width: 100px !important;
+        margin: 0 0 0 -15px !important;
     }
 
     .number {
         font-size: 8px !important;
+        margin: 0 0 0 -15px !important;
+    }
+
+    .footerlogo1 {
+        display: flex;
+        width: 55px !important;
+        height: 50px !important;
     }
 
     .duns {
-        width: 70px !important
+        width: 55px !important
     }
 }
 
