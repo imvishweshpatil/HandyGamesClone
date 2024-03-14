@@ -194,7 +194,8 @@
     }
 
     .duns {
-        width: 55px !important
+        width: 55px !important;
+        margin-left: -10px !important;
     }
 }
 
@@ -369,7 +370,8 @@
     }
 
     .duns {
-        width: 55px !important
+        width: 55px !important;
+        margin-left: -10px !important;
     }
 }
 

@@ -14,11 +14,11 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="registration flex">
+                    <Image src={"/logofooter.png"} alt={"logo"} width={100} height={100} className={"footerlogo1 hidden"} style={{margin:"16px"}}/>
                     <div className="certification font-bold" style={{fontFamily:"Rubik", margin:"16px"}}>
                         <Image src={"/startupindia.png"} alt={"startupindia"} width={160} height={160} className={"startupindia"}/>
                         <p className="number text-black" style={{ fontSize: "14px", margin:"16px" }}>Certificate Number <br />DIPP12619</p>
                     </div>
-                    <Image src={"/logofooter.png"} alt={"logo"} width={100} height={100} className={"footerlogo1 hidden"} style={{margin:"16px"}}/>
                     <div className="duns" style={{margin:"16px"}}>
                         <Image src={"/duns.png"} alt={"duns"} width={100} height={100}/>
                     </div>
