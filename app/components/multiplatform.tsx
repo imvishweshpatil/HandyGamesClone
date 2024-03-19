@@ -13,12 +13,12 @@ const MultiPlatform = () => {
                             </span>
                     </h1>
                     <div className="connecting flex flex-col items-center justify-center m-4">
-                        <h1 className="title"
+                        <h1 className="user"
                             style={{ textAlign: "center", fontSize:"70px", fontFamily:"Rubik", fontWeight:"Bolder"}}
                         >
                             Connecting with users
                         </h1>
-                        <h1 className="title"
+                        <h1 className="user"
                             style={{ textAlign: "center", fontSize:"70px", fontFamily:"Rubik", fontWeight:"Bolder"}}
                         >
                                 <span
@@ -69,7 +69,7 @@ const MultiPlatform = () => {
                      style={{fontFamily:"Karla"}}
                 >
                     <h3 className="seamless justify-content-center align-items-center p-1 font-extrabold">
-                        Seamlessly distributing games & apps on various platforms:
+                        Seamlessly distributing games & <span className="seamless-span">apps on various platforms:</span>
                     </h3>
                     <h3 className="mobile justify-content-center align-items-center font-extrabold">
                         mobile, web, desktop, and embedded devices.

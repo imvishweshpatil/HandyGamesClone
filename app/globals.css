@@ -90,6 +90,10 @@
         overflow: hidden;
     }
 
+    .user{
+        font-size: 27px !important;
+    }
+
     .dropdodge {
         display: none;
     }
@@ -332,6 +336,25 @@
         overflow: hidden;
     }
 
+
+    .user{
+        font-size: 34px !important;
+    }
+
+    .seamless {
+        font-size: 25px !important;
+    }
+
+    .seamless-user {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mobile {
+        font-size: 18px !important;
+    }
+
     .dropdodge {
         display: none;
     }
@@ -532,15 +555,17 @@
         margin: 30px 0 !important;
     }
 
-
+    .user  {
+        font-size: 50px !important;
+    }
 
     .device {
         overflow: hidden;
     }
 
     .dropdodge {
-        margin-right: -26px !important;
-        margin-left: -67px !important;
+        margin-right: -12px !important;
+        margin-left:  20px !important;
         width: 145px !important;
     }
 
@@ -562,11 +587,11 @@
     }
 
     .seamless {
-        font-size: 17px !important;
+        font-size: 21px !important;
     }
 
     .mobile {
-        font-size: 16px !important;
+        font-size: 21px !important;
     }
 
     .App {
@@ -584,8 +609,6 @@
     .notified {
         margin: 0 0 !important;
     }
-
-
 
     .header {
         font-size: 25px !important;
