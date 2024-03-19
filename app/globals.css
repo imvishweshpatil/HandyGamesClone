@@ -86,6 +86,30 @@
         margin: 0 0 !important;
     }
 
+    .device {
+        overflow: hidden;
+    }
+
+    .dropdodge {
+        display: none;
+    }
+
+    .phantompets {
+        height: 115px;
+    }
+
+    .tapshap {
+        margin-left: -32px !important;
+        width: 293px;
+    }
+
+    .mars {
+        width: 206px ;
+    }
+    .seamless, .mobile {
+        font-size: 10px;
+    }
+
     .container {
         margin-top: 50px !important;
     }
@@ -112,90 +136,128 @@
         gap: 30px !important;
     }
 
-    .details{
-        margin-top: 30px !important;
-    }
+   .details{
+       margin-top: 30px !important;
+   }
 
-    .camera {
-        margin-top: 0 !important;
-    }
+   .camera {
+       margin-top: 0 !important;
+   }
 
-    .handygamesicon {
-        margin: 10px 0 !important;
-        width: 120px !important;
-    }
+   .apply {
+       width: 300px !important;
+       height: 170px !important;
+   }
 
-    .newsletter-title {
-        font-size: 25px !important;
-        margin: 10px 0 !important;
-    }
+   .apply-card {
+       padding: 20px !important;
+   }
 
-    .subscribe {
-        display: flex;
-        flex-direction: column !important;
-    }
+   .card-title {
+       font-size: 26px !important;
+   }
 
-    .email {
-        width: 65% !important;
-    }
+   .card-des {
+       font-size: 12px !important ;
+       font-weight: 600 !important;
+       margin: 8px 0 !important;
+   }
 
-    .sub-button {
-        width: 28% !important;
-        font-size: 14px !important;
-        margin: 25px !important;
-        letter-spacing: 1px !important;
-    }
+   .apply-btn {
+       font-size: 11px !important;
+   }
 
-    .footer {
-        display: flex !important;
-        flex-direction: column !important;
-    }
+   .join {
+       margin-bottom: 200px !important;
+       display: flex !important;
+       gap: 0 !important;
+   }
 
-    .footer {
-        display: flex !important;
-        flex-direction: column !important;
-    }
+   .newsletter {
+       margin: 0 !important;
+   }
 
-    .footerlogo {
-        display: none;
-    }
+   .newsletter-title {
+       font-size: 45px !important;
+   }
 
-    .career {
-        font-size: 12px !important;
-        margin: 10px 25px 10px 0 !important;
-    }
+   .subscribe {
+       display: flex !important;
+       flex-direction: column !important;
+       align-items: center !important;
+       justify-content: center !important;
+   }
 
-    .contact {
-        font-size: 12px !important;
-        margin: 10px 25px 10px 0 !important;
-    }
+   .des {
+       font-size: 20px;
+       width: 108% !important;
+   }
 
-    .trademark {
-        font-size: 10px !important;
-        font-weight: 900 !important;
-        width: 100% !important;
-        margin: 0 !important;
-    }
+   .input {
+       display: flex !important;
+       flex-direction: column !important;
+       width: 100% !important;
+   }
 
-    .startupindia {
-        width: 100px !important;
-        margin: 0 !important;
-    }
+   .email {
+       width: 267px !important;
+   }
 
-    .number {
-        font-size: 8px !important;
-        margin: 0 !important;
-    }
+   .sub-button {
+       width: 158px !important;
+       display: flex !important;
+       align-items: center !important;
+       justify-content: center !important;
+       font-size: 14px !important;
+       margin: 25px 55px !important;
+       letter-spacing: 1px !important;
+   }
 
-    .footerlogo1 {
-        display: flex;
-        width: 55px !important;
-        height: 50px !important;
-    }
+   .footer {
+       display: flex !important;
+       flex-direction: column !important;
+   }
 
-    .duns {
-        width: 55px !important;
-    }
+   .footerlogo {
+       display: none;
+   }
+
+   .career {
+       font-size: 12px !important;
+       margin: 10px 25px 10px 0 !important;
+   }
+
+   .contact {
+       font-size: 12px !important;
+       margin: 10px 25px 10px 0 !important;
+   }
+
+   .trademark {
+       font-size: 10px !important;
+       font-weight: 900 !important;
+       width: 100% !important;
+       margin: 0 !important;
+   }
+
+   .startupindia {
+       width: 100px !important;
+       margin: 0 !important;
+   }
+
+   .number {
+       font-size: 8px !important;
+       margin: 0 !important;
+   }
+
+   .footerlogo1 {
+       display: flex;
+       width: 55px !important;
+       height: 50px !important;
+   }
+
+   .duns {
+       width: 55px !important;
+   }
 }
 
 @media screen and (min-width: 376px) and (max-width: 480px){
@@ -266,6 +328,29 @@
         margin: 0 0 !important;
     }
 
+    .device {
+        overflow: hidden;
+    }
+
+    .dropdodge {
+        display: none;
+    }
+
+    .phantompets {
+        margin-left: -18px;
+    }
+
+    .tapshap {
+        margin-left: -40px;
+    }
+    .seamless {
+        font-size: 13px;
+    }
+
+    .mobile {
+        font-size: 13px;
+    }
+
     .container {
         margin-top: 50px !important;
     }
@@ -300,29 +385,72 @@
         margin-top: 0 !important;
     }
 
-    .handygamesicon {
-        margin: 10px 0 !important;
-        width: 120px !important;
+    .apply {
+        width: 300px !important;
+        height: 170px !important;
+    }
+
+    .apply-card {
+        padding: 20px !important;
+    }
+
+    .card-title {
+        font-size: 26px !important;
+    }
+
+    .card-des {
+        font-size: 12px !important ;
+        font-weight: 600 !important;
+        margin: 8px 0 !important;
+    }
+
+    .apply-btn {
+        font-size: 11px !important;
+    }
+
+    .join {
+        margin-bottom: 200px !important;
+        display: flex !important;
+        gap: 0 !important;
+    }
+
+    .newsletter {
+        margin: 0 !important;
     }
 
     .newsletter-title {
-        font-size: 25px !important;
-        margin: 10px 0 !important;
+        font-size: 45px !important;
     }
 
     .subscribe {
-        display: flex;
+        display: flex !important;
         flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .des {
+        font-size: 20px;
+        width: 108% !important;
+    }
+
+    .input {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
     }
 
     .email {
-        width: 65% !important;
+        width: 267px !important;
     }
 
     .sub-button {
-        width: 28% !important;
-        font-size: 16px !important;
-        margin: 25px !important;
+        width: 158px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        font-size: 14px !important;
+        margin: 25px 55px !important;
         letter-spacing: 1px !important;
     }
 
@@ -405,6 +533,42 @@
     }
 
 
+
+    .device {
+        overflow: hidden;
+    }
+
+    .dropdodge {
+        margin-right: -26px !important;
+        margin-left: -67px !important;
+        width: 145px !important;
+    }
+
+    .phantompets {
+        width: 70px;
+        height: 130px;
+        margin-right: 12px;
+    }
+
+    .tapshap {
+        margin-left: -29px;
+        width: 320px;
+        height: 238px;
+    }
+
+    .mars {
+        margin-left: -46px !important;
+        width: 204px;
+    }
+
+    .seamless {
+        font-size: 17px !important;
+    }
+
+    .mobile {
+        font-size: 16px !important;
+    }
+
     .App {
         width: 350px !important;
     }
@@ -421,6 +585,8 @@
         margin: 0 0 !important;
     }
 
+
+
     .header {
         font-size: 25px !important;
         font-weight: bold;
@@ -430,23 +596,73 @@
         width: 95% !important;
     }
 
-    .handygamesicon {
-        width: 25% !important
+    .apply {
+        width: 416px !important;
+        height: 191px !important;
+    }
+
+    .apply-card {
+        padding: 20px !important;
+    }
+
+    .card-title {
+        font-size: 36px !important;
+    }
+
+    .card-des {
+        font-size: 17px !important ;
+        font-weight: 600 !important;
+        margin: 8px 0 !important;
+    }
+
+    .apply-btn {
+        font-size: 18px !important;
+    }
+
+    .join {
+        margin-bottom: 200px !important;
+        display: flex !important;
+        gap: 0 !important;
+    }
+
+    .newsletter {
+        margin: 0 !important;
+    }
+
+    .newsletter-title {
+        font-size: 60px !important;
     }
 
     .subscribe {
         display: flex !important;
         flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .des {
+        font-size: 20px;
+        width: 108% !important;
+    }
+
+    .input {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
     }
 
     .email {
-        width: 70% !important;
-        margin: 10px 0 !important;
+        width: 272px !important;
     }
 
     .sub-button {
-        letter-spacing: 2px !important;
-        width: 35% !important;
+        width: 158px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        font-size: 14px !important;
+        margin: 25px 55px !important;
+        letter-spacing: 1px !important;
     }
 
     .footer {
@@ -526,14 +742,113 @@
         font-size: 16px !important;
     }
 
-    .subscribe {
+    .device {
         display: flex;
+        align-items: baseline;
+        justify-content: center;
+    }
+
+    .dropdodge {
+        margin-right: -61px !important;
+        width: 139px;
+    }
+
+    .phantompets {
+        width: 70px;
+        margin-left: 45px;
+
+    }
+
+    .tapshap {
+        margin-left: -21px;
+        width: 333px;
+    }
+
+    .mars {
+        margin-left: -56px !important;
+        width: 260px;
+    }
+
+    .seamless {
+        font-size: 22px;
+    }
+
+    .mobile {
+        font-size: 20px;
+    }
+
+    .apply {
+        width: 416px !important;
+        height: 191px !important;
+    }
+
+    .apply-card {
+        padding: 20px !important;
+    }
+
+    .card-title {
+        font-size: 36px !important;
+    }
+
+    .card-des {
+        font-size: 17px !important ;
+        font-weight: 600 !important;
+        margin: 8px 0 !important;
+    }
+
+    .apply-btn {
+        font-size: 18px !important;
+    }
+
+    .join {
+        margin-bottom: 200px !important;
+        display: flex !important;
+        gap: 0 !important;
+    }
+
+    .newsletter {
+        margin: 0 !important;
+    }
+
+    .newsletter-title {
+        font-size: 60px !important;
+        display: flex;
+    }
+
+    .newsletter-title span {
+        margin-left: 12px;
+    }
+
+    .subscribe {
+        display: flex !important;
         flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .des {
+        font-size: 20px;
+        width: 108% !important;
+        margin-top: 20px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .email {
-        width: 60% !important;
-        padding: 20px !important;
+        width: 272px !important;
+        height: 50px !important;
+        margin: 25px 0 !important;
+    }
+
+    .sub-button {
+        width: 158px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        font-size: 14px !important;
+        margin: 25px 55px !important;
+        letter-spacing: 1px !important;
     }
 
     .sub-button {
@@ -579,5 +894,16 @@
 
     .game-description {
         font-size: 18px !important;
+    }
+
+    .dropdodge {
+        margin-right: -23px !important;
+        width: 200px;
+        height: 246px;
+    }
+
+    .phantompets {
+        width: 118px;
+        height: 195px;
     }
 }

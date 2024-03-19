@@ -4,6 +4,7 @@ import FeatureGame from "@/app/components/featuregame";
 import AboutUs from "@/app/components/aboutus";
 import NewsLetter from "@/app/components/newsletter";
 import Footer from "@/app/components/footer";
+import MultiPlatform from "@/app/components/multiplatform";
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
             <Navbar />
             <GamePreview />
             <FeatureGame />
+            <MultiPlatform />
             <AboutUs />
             <NewsLetter/>
             <Footer />
