@@ -36,7 +36,7 @@ const MultiPlatform = () => {
                         alt={"dropdodge"}
                         width={400}
                         height={100}
-                        style={{marginRight:"-78px"}}
+                        style={{marginRight:"-78px", marginLeft:"-150px"}}
                         className={"dropdodge"}
                     />
                     <Image
@@ -44,7 +44,7 @@ const MultiPlatform = () => {
                         alt={"phantompets"}
                         width={310}
                         height={110}
-                        style={{zIndex:"1"}}
+                        style={{zIndex:"1", marginLeft:"55px"}}
                         className={"phantompets"}
                     />
                     <Image

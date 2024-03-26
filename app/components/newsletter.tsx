@@ -49,17 +49,17 @@ const NewsLetter = () => {
                     </div>
                 </div>
 
-                <div className="join row position-absolute bottom-0 start-50 translate-middle-x items-center justify-center gap-14"
+                <div className="join  flex position-absolute bottom-0 start-50 translate-middle-x items-center justify-center gap-14"
                      style={{marginBottom:"200px"}}
                 >
-                    <div className="newsletter col flex items-center justify-center">
+                    <div className="newsletter flex items-center justify-center">
                         <h1 className="newsletter-title text-white font-extrabold"
                             style={{fontFamily:"Karla", fontSize:"60px"}}
                         >
-                            Join our <br/><span>newsletter</span>
+                            Join our&nbsp;<br/><span>newsletter</span>
                         </h1>
                     </div>
-                    <div className="subscribe col">
+                    <div className="subscribe">
                         <p className="des text-white" style={{fontFamily:"Karla", fontSize:"20px", width:"140%"}}>keep up with the latest news, releases, and more: </p>
                         <div className="input flex">
                             <input
