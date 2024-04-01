@@ -17,7 +17,8 @@
     src: url('../fonts/Eczar.ttf') format('truetype');
 }
 
-@media only screen and (max-width: 375px) {
+@media screen and (min-width: 325px) and (max-width: 375px)
+{
 
     .kidalogo {
         width: 72px !important;
@@ -1031,9 +1032,14 @@
     }
 
     .phantompets {
-        width: 118px;
-        height: 195px;
+        width: 118px !important;
+        height: 195px !important;
         margin-left: 5px !important;
     }
+}
 
+@media only screen and (min-width: 1441px) and (max-width: 2560px)  {
+    .phantompets {
+        width: 165px !important;
+    }
 }

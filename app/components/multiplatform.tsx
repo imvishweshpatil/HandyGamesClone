@@ -1,4 +1,5 @@
 import Image from "next/image";
+import "../globals.css";
 
 const MultiPlatform = () => {
     return (
@@ -42,7 +43,7 @@ const MultiPlatform = () => {
                     <Image
                         src={"/phantompets.png"}
                         alt={"phantompets"}
-                        width={310}
+                        width={300}
                         height={110}
                         style={{zIndex:"1", marginLeft:"55px"}}
                         className={"phantompets"}
