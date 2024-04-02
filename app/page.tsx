@@ -7,6 +7,7 @@ import Footer from "@/app/components/footer";
 import MultiPlatform from "@/app/components/multiplatform";
 /*import Platform from "@/app/components/platform";*/
 import PawsTeam from "@/app/components/pawsteam";
+import "../app/globals.css";
 
 export default function Home() {
     return (

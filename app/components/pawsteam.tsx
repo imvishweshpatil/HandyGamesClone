@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 const PawsTeam  = () => {
     return (
         <main>
@@ -37,7 +38,7 @@ const PawsTeam  = () => {
                         height={250}
                         className={"mishti-img rounded-full"}
                     />
-                    <h1 className="mishti-title flex items-center justify-center mt-10"
+                    <h1 className="pets-title flex items-center justify-center mt-10"
                         style={{ fontSize:"26px", fontWeight:"bolder", fontFamily:"Rubik"}}
                     >
                         Mishti
@@ -62,7 +63,7 @@ const PawsTeam  = () => {
                         height={250}
                         className={"laadu-img rounded-full"}
                     />
-                    <h1 className="laadu-title flex items-center justify-center mt-10"
+                    <h1 className="pets-title flex items-center justify-center mt-10"
                         style={{ fontSize:"26px", fontWeight:"bolder", fontFamily:"Rubik"}}
                     >
                         Laadu
@@ -88,7 +89,7 @@ const PawsTeam  = () => {
                         height={250}
                         className={"simba-img rounded-full"}
                     />
-                    <h1 className="simba-title flex items-center justify-center mt-10"
+                    <h1 className="pets-title flex items-center justify-center mt-10"
                         style={{ fontSize:"26px", fontWeight:"bolder", fontFamily:"Rubik"}}
                     >
                         Simba

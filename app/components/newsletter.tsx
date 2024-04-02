@@ -49,7 +49,7 @@ const NewsLetter = () => {
                     </div>
                 </div>
 
-                <div className="join  flex position-absolute bottom-0 start-50 translate-middle-x items-center justify-center gap-14"
+                <div className="join flex position-absolute bottom-0 start-50 translate-middle-x items-center justify-center gap-14"
                      style={{marginBottom:"200px"}}
                 >
                     <div className="newsletter flex items-center justify-center">
