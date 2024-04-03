@@ -17,6 +17,260 @@
     src: url('./fonts/Eczar.ttf') format('truetype');
 }
 
+@media only screen and (max-width: 375px) {
+
+    .kidalogo {
+        width: 72px !important;
+        padding: 10px !important;
+        margin: 0 !important;
+    }
+
+    .featuregame {
+        height: auto !important;
+    }
+
+    .heading {
+        font-size: 20px !important;
+    }
+
+    .backgroundimage {
+        position: relative !important;
+        height: 50% !important;
+    }
+
+    .overlay {
+        position: relative !important;
+        height: auto !important;
+    }
+
+    .section {
+        font-size: 15px !important;
+        margin-top: 85px !important;
+    }
+
+    .title {
+        font-size: 21px !important;
+    }
+
+    .games {
+        margin-top: 20px !important;
+    }
+
+    .gamesapp {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+        justify-content: center;
+        margin: 0 !important;
+        gap: 0 !important;
+    }
+
+    .col {
+        margin: 16px 0 !important;
+    }
+
+    .App {
+        width: 230px !important;
+    }
+
+    .game-title {
+        font-size: 40px !important;
+    }
+
+    .game-description {
+        font-size: 14px !important;
+    }
+
+    .notified {
+        font-size: 20px !important;
+        width: 200px !important;
+        margin: 0 0 !important;
+    }
+
+    .device {
+        overflow: hidden;
+    }
+
+    .user{
+        font-size: 27px !important;
+    }
+
+    .dropdodge {
+        display: none;
+    }
+
+    .phantompets {
+        height: 115px;
+        margin-left: 0 !important;
+    }
+
+    .tapshap {
+        margin-left: -32px !important;
+        width: 293px;
+    }
+
+    .mars {
+        width: 206px ;
+    }
+
+    .seamless, .mobile {
+        font-size: 10px;
+    }
+
+    .paws {
+        font-size: 28px !important;
+    }
+
+    .team {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        margin-top: 50px !important;
+    }
+    .header-box {
+        margin: 0 0 !important;
+    }
+
+    .header {
+        font-size: 18px !important;
+        font-weight: bold;
+    }
+
+    .iphone {
+        rotate: 270deg;
+        margin: 100px 0;
+    }
+
+    .photo {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center;
+        justify-content: center;
+        width: 75% !important;
+        gap: 30px !important;
+    }
+
+    .details {
+        margin-top: 30px !important;
+    }
+
+    .camera {
+        margin-top: 0 !important;
+    }
+
+    .apply {
+        width: 100px !important;
+    }
+
+    .apply-card {
+        padding: 20px !important;
+    }
+
+    .card-title {
+        font-size: 26px !important;
+    }
+
+    .card-des {
+        font-size: 12px !important ;
+        font-weight: 600 !important;
+        margin: 8px 0 !important;
+    }
+
+    .apply-btn {
+        font-size: 11px !important;
+    }
+
+    .join {
+        margin-bottom: 200px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 0 !important;
+    }
+
+    .newsletter {
+        margin: 0 !important;
+    }
+
+    .newsletter-title {
+        display: flex;
+        font-size: 33px !important;
+    }
+
+    .subscribe {
+        margin-top: 30px !important;
+    }
+
+    .des {
+        font-size: 16px !important;
+        width: 110% !important;
+    }
+
+    .input {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .email {
+        width: 280px !important;
+    }
+
+    .sub-button {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-top: 21px !important;
+    }
+
+    .footer {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .footerlogo {
+        display: none;
+    }
+
+    .career {
+        font-size: 12px !important;
+        margin: 10px 25px 10px 0 !important;
+    }
+
+    .contact {
+        font-size: 12px !important;
+        margin: 10px 25px 10px 0 !important;
+    }
+
+    .trademark {
+        font-size: 10px !important;
+        font-weight: 900 !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .startupindia {
+        width: 100px !important;
+        margin: 0 !important;
+    }
+
+    .number {
+        font-size: 8px !important;
+        margin: 0 !important;
+    }
+
+    .footerlogo1 {
+        display: flex;
+        width: 55px !important;
+        height: 50px !important;
+    }
+
+    .duns {
+        width: 55px !important;
+    }
+}
+
 @media screen and (min-width: 376px) and (max-width: 480px){
 
     .kidalogo {
@@ -96,6 +350,7 @@
 
     .device {
         overflow: hidden;
+        width: 95% !important;
     }
 
     .dropdodge {
@@ -106,7 +361,7 @@
 
     .phantompets {
         width: 47px !important;
-        margin-left: 47px !important;
+        margin-left: 66px !important;
     }
 
     .tapshap {
