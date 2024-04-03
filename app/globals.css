@@ -53,7 +53,8 @@
     }
 
     .games {
-        margin-top: 20px !important;
+        /*margin-top: 20px !important;*/
+        margin: 0 0 0 0 !important;
     }
 
     .gamesapp {
@@ -61,56 +62,73 @@
         flex-direction: column !important;
         align-items: center;
         justify-content: center;
-        margin: 0 !important;
-        gap: 0 !important;
+        margin: 10px 0 !important;
+        /*gap: 0 !important;*/
     }
 
-    .col {
+    /*.col {
         margin: 16px 0 !important;
-    }
+    }*/
 
     .App {
-        width: 230px !important;
+        width: 200px !important;
+        margin-top: 15px !important;
+    }
+
+    .games {
+        margin-top: 0 !important;
     }
 
     .game-title {
-        font-size: 40px !important;
+        font-size: 25px !important;
+        margin: 10px 0 0 0 !important;
     }
 
     .game-description {
-        font-size: 14px !important;
+        font-size: 12px !important;
+        margin-top: 5px !important;
+    }
+
+    .getgames {
+        margin-top: 20px !important;
+        width: 20px !important;
+        height: 20px !important;
+        gap: 15px !important;
     }
 
     .notified {
-        font-size: 20px !important;
-        width: 200px !important;
-        margin: 0 0 !important;
+        font-size: 15px !important;
+        width: 155px !important;
+        margin: 15px 0 0 0 !important;
     }
 
     .device {
         overflow: hidden;
+        width: 100% !important;
     }
 
     .user{
-        font-size: 27px !important;
+        font-size: 21px !important;
     }
 
     .dropdodge {
-        display: none;
+        width: 85px !important;
+        margin-left: -12px !important;
     }
 
     .phantompets {
-        height: 115px;
-        margin-left: 0 !important;
+        height: 90px !important;
+        margin-left: 42px !important;
     }
 
     .tapshap {
+        width: 230px !important;
         margin-left: -32px !important;
-        width: 293px;
     }
 
     .mars {
-        width: 206px ;
+        width: 165px !important;
+        margin-left: -50px !important;
     }
 
     .seamless, .mobile {
@@ -161,7 +179,7 @@
     }
 
     .apply {
-        width: 100px !important;
+        width: 290px !important;
     }
 
     .apply-card {
@@ -199,12 +217,13 @@
     }
 
     .subscribe {
-        margin-top: 30px !important;
+        margin-top: 20px !important;
     }
 
     .des {
-        font-size: 16px !important;
-        width: 110% !important;
+        font-size: 12px !important;
+        width: 100% !important;
+        margin-bottom: 10px !important;
     }
 
     .input {
@@ -333,9 +352,10 @@
     }
 
     .getgames {
-        margin: 0 !important;
+        margin: 10px !important;
         width: 25px !important;
         height: 25px !important;
+        gap: 15px !important
     }
 
     .notified {
