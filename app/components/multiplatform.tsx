@@ -37,7 +37,7 @@ const MultiPlatform = () => {
                         alt={"dropdodge"}
                         width={400}
                         height={100}
-                        style={{marginRight:"-78px", marginLeft:"-150px"}}
+                        style={{marginRight:"-78px", marginLeft:"-130px"}}
                         className={"dropdodge"}
                     />
                     <Image

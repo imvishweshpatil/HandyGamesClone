@@ -17,7 +17,7 @@
     src: url('./fonts/Eczar.ttf') format('truetype');
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
 
     .kidalogo {
         width: 72px !important;
@@ -49,7 +49,7 @@
     }
 
     .title {
-        font-size: 21px !important;
+        font-size: 18px !important;
     }
 
     .games {
@@ -204,6 +204,10 @@
         margin-top: 0 !important;
     }
 
+    .absolute {
+        margin-top: 30px !important;
+    }
+
     .apply {
         width: 290px !important;
     }
@@ -227,7 +231,7 @@
     }
 
     .join {
-        margin-bottom: 150px !important;
+        margin-bottom: 30px !important;
         display: flex !important;
         flex-direction: column !important;
         gap: 0 !important;
@@ -348,7 +352,11 @@
     }
 
     .title {
-        font-size: 25px !important;;
+        font-size: 19px !important;;
+    }
+
+    .games {
+        margin-top: 0px !important;
     }
 
     .gamesapp {
@@ -364,10 +372,6 @@
         margin-top: 30px !important;
     }
 
-    .games {
-        margin-top: 0px !important;
-    }
-
     .game-title {
         font-size: 30px !important;
         margin: 10px 0 0 0 !important;
@@ -375,10 +379,11 @@
 
     .game-description {
         font-size: 15px !important;
+        margin-top: 10px !important;
     }
 
     .getgames {
-        margin: 10px !important;
+        padding-top: 12px !important;
         width: 25px !important;
         height: 25px !important;
         gap: 15px !important
@@ -387,11 +392,11 @@
     .notified {
         font-size: 17px !important;
         width: 175px !important;
-        margin-top: 5px !important;
+        margin-top: 17px !important;
     }
 
     .user{
-        font-size: 29px !important;
+        font-size: 24px !important;
     }
 
     .device {
@@ -426,31 +431,26 @@
         justify-content: center;
     }*/
 
-    .mobile {
-        font-size: 18px !important;
-    }
-
     .seamless {
-        font-size: 17px !important;
+        font-size: 10px !important;
     }
 
-    .seamless-span {
+    .mobile {
+        font-size: 10px !important;
+    }
+
+    /*.seamless-span {
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 17px;
-    }
-
-    .mobile {
-        font-size: 16px !important;
-    }
-
+        font-size: 9px !important;
+    }*/
     .paws {
         font-size: 30px !important;
     }
 
     .mishti, .laadu, .simba {
-        margin: 10px !important;
+        margin: 20px !important;
     }
 
     .mishti-img {
@@ -475,6 +475,10 @@
     .team {
         display: flex !important;
         flex-direction: column !important;
+    }
+
+    .role, .CSO, .PPO, .TTS {
+        padding-top: 5px !important;
     }
 
     .container {
@@ -519,34 +523,36 @@
     }
 
     .absolute {
-        margin-top: 50px !important;
+        margin-top: 20px !important;
     }
 
     .apply {
-        width: 300px !important;
-        height: 170px !important;
+        width: 250px !important;
+        height: 130px !important;
     }
 
     .apply-card {
-        padding: 20px !important;
+        padding: 10px !important;
     }
 
     .card-title {
-        font-size: 26px !important;
+        font-size: 16px !important;
+        margin-left: -10px !important;
     }
 
     .card-des {
-        font-size: 12px !important ;
+        font-size: 8px !important ;
         font-weight: 600 !important;
         margin: 8px 0 !important;
     }
 
     .apply-btn {
         font-size: 11px !important;
+        margin-top: 10px !important;
     }
 
     .join {
-        margin-bottom: 50px !important;
+        margin-bottom: 0 !important;
         display: flex !important;
         flex-direction: column !important;
         gap: 0 !important;
@@ -558,7 +564,7 @@
 
     .newsletter-title {
         display: flex !important;
-        font-size: 30px !important;
+        font-size: 25px !important;
     }
 
     .subscribe {
@@ -566,7 +572,7 @@
         flex-direction: column !important;
         align-items: center !important;
         justify-content: center !important;
-        margin-top: 25px !important;
+        margin-top: 5px !important;
     }
 
     .des {
@@ -664,16 +670,21 @@
         font-size: 35px !important;
     }
 
+    .games {
+        margin-top: 0 !important;
+    }
+
     .gamesapp {
         display: flex !important;
         flex-direction: column !important;
         align-items: center;
         justify-content: center;
-        margin: 30px 0 !important;
+        margin: 10px 0 !important;
     }
 
     .App {
         width: 350px !important;
+        margin-top: 30px !important;
     }
 
     .game-title {
@@ -685,7 +696,7 @@
     }
 
     .notified {
-        margin: 0 0 !important;
+        margin-top: 15px !important;
     }
 
     .user {
@@ -889,7 +900,7 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
     .games-preview {
-        width: 100vw !important;
+        width: 100% !important;
     }
 
     .app-images {
@@ -902,7 +913,7 @@
     }
 
     .title {
-        font-size: 60px !important;
+        font-size: 50px !important;
     }
 
     .gamesapp {
@@ -988,7 +999,21 @@
     }
 
     .simba-role {
-        margin-left: -12px;
+        margin-left: -10px !important;
+        font-size: 13px !important;
+    }
+
+    .mishti-role {
+        font-size: 13px !important;
+        margin-left: -8px !important;
+    }
+
+    .laadu-role {
+        font-size: 13px !important;
+    }
+
+    .role, .CSO, .PPO, .TTS {
+        margin-top: 7px !important;
     }
 
     .absolute {
@@ -1128,9 +1153,27 @@
         height: 195px !important;
         margin-left: 5px !important;
     }
+
+    .mars {
+        width: 340px !important;
+        height: 220px !important;
+    }
+
+    .seamless, .mobile {
+        font-size: 40px !important;
+    }
+
+    .absolute {
+        margin-top: 50px !important;
+    }
 }
 
 @media only screen and (min-width: 1441px) and (max-width: 2560px)  {
+
+    .games-preview {
+        width: 100% !important;
+    }
+
     .phantompets {
         width: 165px !important;
     }
@@ -1138,4 +1181,17 @@
     .dropdodge {
         margin-left: -25px !important;
     }
+
+    .device {
+        overflow: clip;
+    }
+
+    .absolute {
+        margin-top: 50px !important;
+    }
+
+    .seamless, .mobile {
+        font-size: 30px !important;
+    }
+
 }
