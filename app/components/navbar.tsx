@@ -8,9 +8,9 @@ import {MagnifyingGlassIcon} from "@heroicons/react/24/outline";
 const Navbar = () => {
     return (
         <Popover>
-            <div className="header-container fixed w-full flex top-0 items-center bg-black p-0 z-50">
+            <div className="header-container fixed w-full flex top-0 items-center bg-transparent p-0 z-50">
                 <Image src={"/kidalogo.png"} alt={"KIDAStudios"} className="kidalogo" width={55} height={55} style={{margin:"20px"}}/>
-                <div className="grow" style={{fontFamily:"Eczar", letterSpacing:"5px"}}>
+                <div className="navbar-btn" style={{fontFamily:"Eczar", letterSpacing:"5px"}}>
                     <div className={"hidden text-white sm:flex"}>
                         <button className="ml-4">HOME</button>
                         <button className="ml-4">GAMES</button>
@@ -21,7 +21,7 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <div className="flex grow items-center justify-end sm:hidden">
+                <div className="icons flex items-center justify-end sm:hidden">
                     <MagnifyingGlassIcon className="icons h-6 w-6 text-white" style={{marginRight:"20px"}}></MagnifyingGlassIcon>
                     <Popover.Button className="inline-flex items-center justify-center rounded-md  p-2 text-gray-400 hover:bg-black-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                         <span className="sr-only">Open menu</span>
