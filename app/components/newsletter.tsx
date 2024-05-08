@@ -17,14 +17,14 @@ const NewsLetter = () => {
 
     return (
         <main>
-            <div className="relative bg-gray-500" style={{ width: "100%", height: "100vh" }}>
+            <div className="newsletter-container relative bg-gray-500" style={{ width: "100%", height: "100vh", marginTop:"100px" }}>
                 <Image
                     src={"/newsletter.jpg"}
                     alt={"newsletter"}
                     layout={"fill"}
                     objectFit={"cover"}
                 />
-                <div className="absolute top-0 start-50 translate-middle-x flex items-center justify-center"
+                <div className="application-form-container absolute top-0 start-50 translate-middle-x flex items-center justify-center"
                      style={{marginTop:"150px"}}
                 >
                     <div className="apply flex flex-col items-center justify-start bg-white text-black p-2"
