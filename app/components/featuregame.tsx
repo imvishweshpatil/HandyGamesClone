@@ -97,7 +97,6 @@ const FeatureGame = () => {
                                         className={"store"}
                                     />
                                 </div>
-
                             </div>
 
                             <div className="col flex flex-column items-center justify-center">
