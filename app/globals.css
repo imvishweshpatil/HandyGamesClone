@@ -25,6 +25,10 @@
         margin: 0 !important;
     }
 
+    .game-info {
+        display: none !important;
+    }
+
     .featuregame {
         height: auto !important;
     }
@@ -44,12 +48,18 @@
     }
 
     .section {
-        font-size: 15px !important;
+        font-size: 23px !important;
         margin-top: 85px !important;
     }
 
     .title {
-        font-size: 18px !important;
+        font-size: 38px !important;
+    }
+
+    .title-span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .games {
@@ -71,7 +81,7 @@
     }*/
 
     .App {
-        width: 200px !important;
+        width: 275px !important;
         margin-top: 15px !important;
     }
 
@@ -80,59 +90,246 @@
     }
 
     .game-title {
-        font-size: 25px !important;
+        font-size: 36px !important;
         margin: 10px 0 0 0 !important;
     }
 
     .game-description {
-        font-size: 12px !important;
+        font-size: 16px !important;
         margin-top: 5px !important;
     }
 
     .getgames {
         margin-top: 20px !important;
-        width: 20px !important;
+        width: 30px !important;
         height: 20px !important;
-        gap: 15px !important;
+        gap: 22px !important;
+    }
+
+    .store {
+        width: 30px !important;
+        height: 25px !important;
     }
 
     .notified {
-        font-size: 15px !important;
-        width: 155px !important;
+        font-size: 18px !important;
+        width: 170px !important;
         margin: 15px 0 0 0 !important;
     }
 
-    .device {
-        overflow: hidden;
-        width: 100% !important;
+    .user-title{
+        font-size: 28px !important;
     }
 
-    .user{
-        font-size: 21px !important;
+    .device-gallery-primary {
+        display: none !important;
     }
 
-    .dropdodge {
-        width: 85px !important;
-        margin-left: -12px !important;
+    /*.dropdodge {
+        width: 105px !important;
+        height: 153px !important;
+        margin: 0 0 0 -6px !important;
+        !*margin: 0 !important;*!
+        z-index: 1;
     }
 
     .phantompets {
-        height: 90px !important;
-        margin-left: 42px !important;
+        height: 130px !important;
+        margin-left: -15px !important;
     }
 
     .tapshap {
-        width: 230px !important;
-        margin-left: -32px !important;
+        width: 350px !important;
+        margin-left: -143px !important;
     }
 
     .mars {
-        width: 165px !important;
-        margin-left: -50px !important;
+        width: 220px !important;
+        margin-left: -160px !important;
+    }*/
+
+    .device-gallery-secondary {
+        overflow: hidden;
+        width: 100% !important;
+        display: flex !important;
+        align-items: baseline !important;
     }
 
-    .seamless, .mobile {
-        font-size: 10px;
+    /*@keyframes slideInLeft {
+        0% {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideInRight {
+        0% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideInBack {
+        0% {
+            transform: translateZ(-1000px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateZ(0);
+            opacity: 1;
+        }
+    }
+
+    .animate-left {
+        animation: slideInLeft 0.5s forwards;
+    }
+
+    .animate-right {
+        animation: slideInRight 0.5s forwards;
+    }
+
+    .animate-back {
+        animation: slideInBack 0.5s forwards;
+    }*/
+
+    .tapshap1 {
+        width: 354px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-left: -132px !important;
+    }
+
+    .mars1 {
+        width: 212px !important;
+        margin-left: -82px !important;
+    }
+
+    .dropdodge1 {
+        width: 102px !important;
+        margin-left: -80px !important;
+    }
+
+    .phantompets1 {
+        width: 52px !important;
+        margin-left: -36px !important;
+        margin-right: -11px !important;
+    }
+
+
+    .seamless-heading-primary,
+    .seamless-heading-secondary
+    {
+        font-size: 16px;
+    }
+
+    .seamless-heading-primary-span {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .platform-container {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .windows-primary,
+    .platform-primary,
+    .nintendoswitch-primary {
+        display: none !important ;
+    }
+
+    .platform-secondary
+    {
+        display: flex !important;
+        flex-direction: row !important;
+        width: 90px !important;
+        border-radius: 20px !important;
+        padding: 5px !important;
+    }
+
+    .ios-secondary
+    {
+        display: flex !important;
+        flex-direction: row !important;
+        width: 80px !important;
+        height: 80px !important;
+        border-radius: 20px !important;
+        padding: 25px !important;
+    }
+
+    .android-secondary {
+        display: flex !important;
+        flex-direction: row !important;
+        width: 80px !important;
+        height: 80px !important;
+        border-radius: 20px !important;
+        padding: 18px !important;
+    }
+
+    .windows-secondary {
+        width: 80px !important;
+        height: 80px !important;
+        border-radius: 20px !important;
+        padding: 27px !important;
+    }
+
+    .nintendoswitch-secondary {
+        width: 80px !important;
+        height: 80px !important;
+        border-radius: 20px !important;
+        padding: 17px !important;
+    }
+
+    .firetv-secondary {
+        border-radius: 20px !important;
+        width: 80px !important;
+        height: 80px !important;
+        padding: 25px !important;
+    }
+
+    .visionOS-secondary {
+        border-radius: 20px !important;
+        width: 80px !important;
+        height: 80px !important;
+        padding: 13px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin: 20px !important;
+    }
+
+    .visionOS-secondary img {
+        padding: 0 !important;
+        margin: 26px !important;
+        width: 70px !important;
+    }
+
+    .appletv {
+        width: 180px !important;
+        height: 180px !important;
+    }
+
+    .appletv img {
+        padding: 15px !important;
+    }
+
+    .engaging {
+        font-size: 30px !important;
+    }
+
+    .PlatformAvailability {
+        font-size: 13px !important;
+        font-weight: 600 !important;
     }
 
     .paws {
@@ -204,7 +401,7 @@
         margin-top: 0 !important;
     }
 
-    .absolute {
+    .application-form-container {
         margin-top: 30px !important;
     }
 
@@ -328,6 +525,10 @@
         margin: 0 !important;
     }
 
+    .game-info {
+        display: none !important;
+    }
+
     .featuregame {
         height: auto !important;
     }
@@ -347,16 +548,16 @@
     }
 
     .section {
-        font-size: 20px !important;
+        font-size: 25px !important;
         margin-top: 80px !important;
     }
 
     .title {
-        font-size: 19px !important;;
+        font-size: 24px !important;;
     }
 
     .games {
-        margin-top: 0px !important;
+        margin-top: 0 !important;
     }
 
     .gamesapp {
@@ -368,17 +569,17 @@
     }
 
     .App {
-        width: 230px !important;
+        width: 275px !important;
         margin-top: 30px !important;
     }
 
     .game-title {
-        font-size: 30px !important;
+        font-size: 37px !important;
         margin: 10px 0 0 0 !important;
     }
 
     .game-description {
-        font-size: 15px !important;
+        font-size: 17px !important;
         margin-top: 10px !important;
     }
 
@@ -389,62 +590,225 @@
         gap: 15px !important
     }
 
+    .store {
+        width: 30px !important;
+        height: 25px !important;
+    }
+
     .notified {
-        font-size: 17px !important;
-        width: 175px !important;
+        font-size: 20px !important;
+        width: 190px !important;
         margin-top: 17px !important;
     }
 
-    .user{
+    .user-title{
         font-size: 24px !important;
     }
 
-    .device {
-        overflow: hidden;
-        width: 95% !important;
+    .device-gallery-primary {
+        display: none !important;
     }
 
-    .dropdodge {
-        width: 102px !important;
-        margin-right: -78px !important;
-        margin-left: -33px !important;
+    /*.dropdodge {
+        width: 105px !important;
+        height: 153px !important;
+        margin: 0 0 0 -6px !important;
+        !*margin: 0 !important;*!
+        z-index: 1;
     }
 
     .phantompets {
-        width: 47px !important;
-        margin-left: 66px !important;
+        height: 130px !important;
+        margin-left: -15px !important;
     }
 
     .tapshap {
-        width: 285px !important;
-        margin-left: -35px !important;
+        width: 350px !important;
+        margin-left: -143px !important;
     }
 
     .mars {
-        width: 148px !important;
-        margin-left: -58px !important;
-    }
-
-    /*.seamless-user {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 220px !important;
+        margin-left: -160px !important;
     }*/
 
-    .seamless {
-        font-size: 10px !important;
+    .device-gallery-secondary {
+        overflow: hidden;
+        width: 100% !important;
+        display: flex !important;
+        align-items: baseline !important;
+        /*justify-content: center !important;*/
     }
 
-    .mobile {
-        font-size: 10px !important;
+    @keyframes slideInLeft {
+        0% {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
     }
 
-    /*.seamless-span {
+    @keyframes slideInRight {
+        0% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideInBack {
+        0% {
+            transform: translateZ(-1000px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateZ(0);
+            opacity: 1;
+        }
+    }
+
+    .animate-left {
+        animation: slideInLeft 2s forwards;
+    }
+
+    .animate-right {
+        animation: slideInRight 2s forwards;
+    }
+
+    .animate-back {
+        animation: slideInBack 4s forwards;
+    }
+
+    .tapshap1 {
+        width: 375px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-left: -123px !important;
+    }
+
+    .mars1 {
+        width: 212px !important;
+        margin-left: -67px !important;
+    }
+
+    .dropdodge1 {
+        width: 102px !important;
+        margin-left: -66px !important;
+    }
+
+    .phantompets1 {
+        width: 52px !important;
+        margin-left: -36px !important;
+        margin-right: -11px !important;
+    }
+
+    .seamless-heading-primary {
+        font-size: 12px !important;
+    }
+
+    .seamless-heading-secondary {
+        font-size: 12px !important;
+    }
+
+    .platform-container {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .windows-primary,
+    .platform-primary,
+    .nintendoswitch-primary
+    {
+        display: none !important ;
+    }
+
+    .platform-secondary,
+    .android-secondary
+    {
+        display: flex !important;
+        flex-direction: row !important;
+        width: 100px !important;
+        border-radius: 20px !important;
+    }
+
+    .windows-secondary {
+        width: 100px !important;
+        height: 100px !important;
+        border-radius: 20px !important;
+        padding: 30px !important;
+        margin: 20px !important;
+    }
+
+    .ios-secondary {
+        width: 100px !important;
+        height: 100px !important;
+        border-radius: 20px !important;
+    }
+
+    .nintendoswitch-secondary {
+        width: 100px !important;
+        height: 100px !important;
+        border-radius: 20px !important;
+    }
+
+    .firetv-secondary {
+        border-radius: 20px !important;
+        width: 100px !important;
+        height: 100px !important;
+        padding: 28px !important;
+    }
+
+    .appletv {
+        width: 230px !important;
+        height: 230px !important;
+    }
+
+    .visionOS-secondary {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 100px !important;
+        height: 100px !important;
+        border-radius: 20px !important;
+        margin: 20px !important;
+    }
+
+    .visionOS-secondary img {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 150px !important;
+        padding: 11px !important;
+        margin: 40px !important;
+    }
+
+    .android-secondary {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .engaging {
+        font-size: 30px !important;
+    }
+
+    .PlatformAvailability {
+        font-size: 12px !important;
+    }
+
+    /*.seamless-heading-primary-span {
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: 9px !important;
     }*/
+
     .paws {
         font-size: 30px !important;
     }
@@ -516,13 +880,13 @@
         margin-top: 0 !important;
     }
 
-    .relative {
+    .newsletter-container {
         width: 100vw !important;
         height: 50vh !important;
         margin: 10px 0 !important;
     }
 
-    .absolute {
+    .application-form-container {
         margin-top: 20px !important;
     }
 
@@ -654,12 +1018,31 @@
         width: 85px !important;
     }
 
-    .grow {
+    .navbar-btn {
         font-size: 12px !important;
     }
 
     .games-preview {
         width: 100vw !important;
+    }
+
+    .game-info-heading {
+        font-size: 40px !important;
+    }
+
+    .game-info-description {
+        font-size: 14px !important;
+    }
+
+    .platform {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    .buynow-btn, .play-btn {
+        font-size: 11px !important;
+        padding: 6px !important;
+        width: 80px !important;
     }
 
     .section {
@@ -699,22 +1082,63 @@
         margin-top: 15px !important;
     }
 
-    .user {
-        font-size: 40px !important;
-    }
-
-    .user  {
+    .user-title  {
         font-size: 50px !important;
     }
 
-    .device {
+    .device-gallery-primary {
         overflow: hidden;
+    }
+
+    @keyframes slideInLeft {
+        0% {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideInRight {
+        0% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideInBack {
+        0% {
+            transform: translateZ(-1000px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateZ(0);
+            opacity: 1;
+        }
+    }
+
+    .animate-left {
+        animation: slideInLeft 2s forwards;
+    }
+
+    .animate-right {
+        animation: slideInRight 2s forwards;
+    }
+
+    .animate-back {
+        animation: slideInBack 4s forwards;
     }
 
     .dropdodge {
         margin-right: -12px !important;
-        margin-left:  20px !important;
-        width: 145px !important;
+        margin-left:  40px !important;
+        width: 130px !important;
     }
 
     .phantompets {
@@ -734,12 +1158,48 @@
         width: 204px;
     }
 
-    .seamless {
+    .seamless-heading-primary {
         font-size: 24px !important;
     }
 
-    .mobile {
+    .seamless-heading-secondary {
         font-size: 24px !important;
+    }
+
+    .windows-primary,
+    .ios,
+    .firetv,
+    .visionOS,
+    .android,
+    .nintendoswitch-primary
+    {
+        width: 100px !important;
+        height: 100px !important;
+        border-radius: 25px !important;
+        padding: 1rem !important;
+    }
+
+    .windows-primary img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .appletv {
+        width: 180px !important;
+        height: 180px !important;
+        border-radius: 25px !important;
+    }
+
+    .nintendoswitch-primary img {
+        width: 70px !important;
+    }
+
+    .engaging  {
+        font-size: 50px !important;
+    }
+
+    .PlatformAvailability {
+        font-size: 17px !important;
     }
 
     .paws {
@@ -776,7 +1236,7 @@
         width: 95% !important;
     }
 
-    .absolute {
+    .application-form-container {
         margin-top: 50px !important;
     }
 
@@ -903,6 +1363,13 @@
         width: 100% !important;
     }
 
+    .game-info-heading {
+        font-size: 55px !important;
+    }
+
+    .game-info-description {
+        font-size: 15px !important;
+    }
     .app-images {
         gap: 0 !important;
         width: 125px !important;
@@ -932,14 +1399,59 @@
         font-size: 16px !important;
     }
 
-    .user {
+    .user-title {
         font-size: 60px !important;
     }
 
-    .device {
+    .device-gallery-primary {
         display: flex;
         align-items: baseline;
         justify-content: center;
+    }
+
+    @keyframes slideInLeft {
+        0% {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideInRight {
+        0% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideInBack {
+        0% {
+            transform: translateZ(-1000px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateZ(0);
+            opacity: 1;
+        }
+    }
+
+    .animate-left {
+        animation: slideInLeft 2s forwards;
+    }
+
+    .animate-right {
+        animation: slideInRight 2s forwards;
+    }
+
+    .animate-back {
+        animation: slideInBack 4s forwards;
     }
 
     .dropdodge {
@@ -963,12 +1475,60 @@
         width: 260px;
     }
 
-    .seamless {
+    .seamless-heading-primary {
         font-size: 22px;
     }
 
-    .mobile {
+    .seamless-heading-secondary {
         font-size: 20px;
+    }
+
+    .windows-primary {
+        width: 100px !important;
+        height: 100px !important;
+        padding: 1.25rem !important;
+        border-radius: 20px !important;
+    }
+
+    .windows-primary img {
+        width: 50px !important;
+        height: 50px !important;
+        padding: 5px !important;
+    }
+
+    .ios, .firetv, .visionOS, .android {
+        width: 100px !important;
+        height: 100px !important;
+        border-radius: 20px !important;
+    }
+
+    .android img {
+        width: 75px !important;
+        height: 70px !important;
+    }
+
+    .visionOS img {
+        padding: 5px !important;
+    }
+
+    .ios img {
+        margin: 13px !important;
+    }
+
+    .appletv {
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+    .appletv img{
+        width: 140px !important;
+        height: 70px !important;
+    }
+
+    .nintendoswitch-primary {
+        width: 100px !important;
+        height: 100px !important;
+        border-radius: 20px !important;
     }
 
     .paws {
@@ -1016,7 +1576,7 @@
         margin-top: 7px !important;
     }
 
-    .absolute {
+    .application-form-container {
         margin-top: 100px !important;
     }
 
@@ -1141,6 +1701,51 @@
         font-size: 18px !important;
     }
 
+    @keyframes slideInLeft {
+        0% {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideInRight {
+        0% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideInBack {
+        0% {
+            transform: translateZ(-1000px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateZ(0);
+            opacity: 1;
+        }
+    }
+
+    .animate-left {
+        animation: slideInLeft 2s forwards;
+    }
+
+    .animate-right {
+        animation: slideInRight 2s forwards;
+    }
+
+    .animate-back {
+        animation: slideInBack 4s forwards;
+    }
+
     .dropdodge {
         margin-right: -23px !important;
         margin-left: 105px !important;
@@ -1159,11 +1764,11 @@
         height: 220px !important;
     }
 
-    .seamless, .mobile {
+    .seamless-heading-primary, .seamless-heading-secondary {
         font-size: 40px !important;
     }
 
-    .absolute {
+    .application-form-container {
         margin-top: 50px !important;
     }
 }
@@ -1174,6 +1779,51 @@
         width: 100% !important;
     }
 
+    @keyframes slideInLeft {
+        0% {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideInRight {
+        0% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideInBack {
+        0% {
+            transform: translateZ(-1000px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateZ(0);
+            opacity: 1;
+        }
+    }
+
+    .animate-left {
+        animation: slideInLeft 0.5s forwards;
+    }
+
+    .animate-right {
+        animation: slideInRight 0.5s forwards;
+    }
+
+    .animate-back {
+        animation: slideInBack 0.5s forwards;
+    }
+
     .phantompets {
         width: 165px !important;
     }
@@ -1182,15 +1832,18 @@
         margin-left: -25px !important;
     }
 
-    .device {
-        overflow: clip;
+    .device-gallery-primary {
+        display: flex ;
+        align-items: baseline;
+        justify-content: center;
+        overflow: hidden;
     }
 
-    .absolute {
+    .application-form-container {
         margin-top: 50px !important;
     }
 
-    .seamless, .mobile {
+    .seamless-heading-primary, .seamless-heading-secondary {
         font-size: 30px !important;
     }
 
