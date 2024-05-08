@@ -69,50 +69,31 @@ const GamePreview = () => {
                         Play
                     </button>
 
-                    <h3 className="available text-white mt-4"
+                    <h3 className="available text-white mt-5"
                         style={{fontSize:"20px"}}
                     >
                         Available on:
                     </h3>
-                    <div className="game-platform flex gap-4 mt-3">
+                    <div className="game-platform flex gap-8 mt-3">
                         <Image
-                            src={"/appstore.png"}
+                            src={"/featuregame-w10.png"}
                             alt={"appstore"}
-                            width={10}
-                            height={10}
-                            style={{width:"30px", height:"30px"}}
+                            width={150}
+                            height={150}
                             className={"platform"}
                         />
                         <Image
-                            src={"/playstore.png"}
-                            alt={"playstore"}
+                            src={"/featuregame-xbox.png"}
+                            alt={"appstore"}
                             width={100}
                             height={100}
-                            style={{width:"30px", height:"30px"}}
                             className={"platform"}
                         />
                         <Image
-                            src={"/amazon.png"}
-                            alt={"amazon"}
+                            src={"/featuregame-nintendoswitch.png"}
+                            alt={"appstore"}
                             width={100}
                             height={100}
-                            style={{width:"30px", height:"30px"}}
-                            className={"platform"}
-                        />
-                        <Image
-                            src={"/steam.png"}
-                            alt={"steam"}
-                            width={100}
-                            height={100}
-                            style={{width:"30px", height:"30px"}}
-                            className={"platform"}
-                        />
-                        <Image
-                            src={"/microsoft.png"}
-                            alt={"microsoft"}
-                            width={100}
-                            height={100}
-                            style={{width:"30px", height:"30px"}}
                             className={"platform"}
                         />
                     </div>
