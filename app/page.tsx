@@ -5,7 +5,7 @@ import AboutUs from "@/app/components/aboutus";
 import NewsLetter from "@/app/components/newsletter";
 import Footer from "@/app/components/footer";
 import MultiPlatform from "@/app/components/multiplatform";
-/*import Platform from "@/app/components/platform";*/
+import Platform from "@/app/components/platform";
 import PawsTeam from "@/app/components/pawsteam";
 import "../app/globals.css";
 
@@ -16,7 +16,7 @@ export default function Home() {
             <GamePreview />
             <FeatureGame />
             <MultiPlatform />
-            {/*<Platform />*/}
+            <Platform />
             <PawsTeam />
             <AboutUs />
             <NewsLetter />
