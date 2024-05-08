@@ -33,17 +33,103 @@ const GamePreview = () => {
 
     return (
         <main>
-            <div className="games-preview relative" style={{width:"100vw", height:"calc(100vh)"}}>
+            <div className="games-preview relative"
+                 style={{width:"100vw", height:"calc(100vh)"}}
+            >
+                <div className="game-info position-absolute top-0 start-0 ml-5"
+                     style={{ zIndex: "2", marginTop: "120px", left: "0", top: "0" }}
+                >
+                    <h1 className="game-info-heading text-white"
+                        style={{ fontSize: "80px", fontWeight: "bolder", textAlign: "left", fontFamily: "Eczar" }}
+                    >
+                        Lets Start
+                    </h1>
+
+                    <h1 className="game-info-heading text-white"
+                        style={{ fontSize: "80px", fontWeight: "bolder", marginTop: "5px", fontFamily: "Eczar", textAlign: "left" }}
+                    >
+                        the game
+                    </h1>
+
+                    <p className="game-info-description text-white"
+                       style={{ fontSize: "20px", marginTop: "10px", width: "30%", textAlign: "left" }}
+                    >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet rhoncus arcu, id egestas lacus. Cras vel ullamcorper dolor. Aliquam gravida dapibus orci nec pharetra.
+                    </p>
+
+                    <button className="buynow-btn text-white p-2 rounded mt-4 mr-6"
+                            style={{fontSize:"16px", backgroundColor:"grey", width:"120px"}}
+                    >
+                        Buy Now
+                    </button>
+
+                    <button className="play-btn text-white p-2 rounded mt-4 border border-light"
+                            style={{ fontSize: "16px", width: "120px" }}
+                    >
+                        Play
+                    </button>
+
+                    <h3 className="available text-white mt-4"
+                        style={{fontSize:"20px"}}
+                    >
+                        Available on:
+                    </h3>
+                    <div className="game-platform flex gap-4 mt-3">
+                        <Image
+                            src={"/appstore.png"}
+                            alt={"appstore"}
+                            width={10}
+                            height={10}
+                            style={{width:"30px", height:"30px"}}
+                            className={"platform"}
+                        />
+                        <Image
+                            src={"/playstore.png"}
+                            alt={"playstore"}
+                            width={100}
+                            height={100}
+                            style={{width:"30px", height:"30px"}}
+                            className={"platform"}
+                        />
+                        <Image
+                            src={"/amazon.png"}
+                            alt={"amazon"}
+                            width={100}
+                            height={100}
+                            style={{width:"30px", height:"30px"}}
+                            className={"platform"}
+                        />
+                        <Image
+                            src={"/steam.png"}
+                            alt={"steam"}
+                            width={100}
+                            height={100}
+                            style={{width:"30px", height:"30px"}}
+                            className={"platform"}
+                        />
+                        <Image
+                            src={"/microsoft.png"}
+                            alt={"microsoft"}
+                            width={100}
+                            height={100}
+                            style={{width:"30px", height:"30px"}}
+                            className={"platform"}
+                        />
+                    </div>
+                </div>
+
+                <div className="game-images" style={{zIndex:"1"}}>
                 {images.map((image, index) => (
-                  <Image
-                      key={index}
-                      src={image}
-                      alt={`image${index + 1}`}
-                      layout="fill"
-                      objectFit="cover"
-                      style={{opacity: index === currentIndex ? 1 : 0, transition: "opacity 1s ease-in-out" }}
-                  />
+                    <Image
+                        key={index}
+                        src={image}
+                        alt={`image${index + 1}`}
+                        layout="fill"
+                        objectFit="cover"
+                        style={{opacity: index === currentIndex ? 1 : 0, transition: "opacity 1s ease-in-out" }}
+                    />
                 ))}
+                </div>
             </div>
             {/*<div style={{ textAlign: "center", position: "relative", bottom: "10px", left: "50%", transform: "translateX(-50%)", zIndex: 2}}>
                 {images.map((_, index) => (
