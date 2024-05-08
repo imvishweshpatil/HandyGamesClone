@@ -21,14 +21,13 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <div className="icons flex items-center justify-end sm:hidden">
+                <div className="icon flex items-center justify-end sm:hidden">
                     <MagnifyingGlassIcon className="icons h-6 w-6 text-white" style={{marginRight:"20px"}}></MagnifyingGlassIcon>
                     <Popover.Button className="inline-flex items-center justify-center rounded-md  p-2 text-gray-400 hover:bg-black-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                         <span className="sr-only">Open menu</span>
                         <Bars3Icon className="h-6 w-6" aria-hidden={"true"}></Bars3Icon>
                     </Popover.Button>
                 </div>
-
 
                 <Popover.Panel focus className={"absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden"}>
                     <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 divide-y-2 divide-gray-50 w-100 h-100 bg-white"> {/*style={{backgroundColor:"#8ed1fc"}}*/}
@@ -55,9 +54,9 @@ const Navbar = () => {
                         </div>
                     </div>
                 </Popover.Panel>
-                <div className="hidden sm:block">
+                {/*<div className="hidden sm:block">
                     <MagnifyingGlassIcon className="icons h-6 w-6 text-white" style={{marginRight:"20px"}}></MagnifyingGlassIcon>
-                </div>
+                </div>*/}
             </div>
         </Popover>
     );
