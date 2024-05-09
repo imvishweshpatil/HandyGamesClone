@@ -74,7 +74,7 @@ const GamePreview = () => {
                     </button>
 
                     <h3 className="available text-white"
-                        style={{fontSize:"30px", fontFamily:"Rubik", marginTop:"44px"}}
+                        style={{fontSize:"30px", fontFamily:"Rubik", marginTop:"24px"}}
                     >
                         Available on:
                     </h3>
