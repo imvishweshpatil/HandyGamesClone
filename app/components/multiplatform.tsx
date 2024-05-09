@@ -61,16 +61,32 @@ const MultiPlatform = () => {
                 </div>
 
                 {/*for small devices*/}
-                <div className="device-gallery-secondary hidden items-baseline content-center mb-5 pt-4"
-                     data-aos="fade-left" data-aos-once="false" data-aos-duration="2000" data-aos-delay="200"
-                >
+                <div className="device-gallery-secondary hidden items-baseline content-center mb-5 pt-4">
+                    <Image
+                        src={"/tapshap.png"}
+                        alt={"tapshap"}
+                        width={800}
+                        height={800}
+                        className={"tapshap1 animate-flip"}
+                        style={{zIndex:"1"}}
+                    />
+                </div>
+
+                <div className="device-gallery-secondary hidden items-baseline content-center mb-5 pt-4">
+                    <Image
+                        src={"/dropdodge.png"}
+                        alt={"dropdodge"}
+                        width={350}
+                        height={100}
+                        style={{zIndex:1}}
+                        className={"dropdodge1 animate-left"}
+                    />
                     <Image
                         src={"/mars1931.png"}
                         alt={"mars1931"}
                         width={600}
                         height={400}
-                        style={{zIndex:"2"}}
-                        className={"mars1 animate-left"}
+                        className={"mars1 animate-back"}
                         data-oas="fade-right" data-aos-once="false"
                     />
                     <Image
@@ -78,26 +94,10 @@ const MultiPlatform = () => {
                         alt={"phantompets"}
                         width={300}
                         height={110}
-                        style={{zIndex:"2"}}
-                        className={"phantompets1 animate-left"}
-                    />
-                    <Image
-                        src={"/tapshap.png"}
-                        alt={"tapshap"}
-                        width={800}
-                        height={800}
-                        className={"tapshap1 animate-back"}
-                        style={{zIndex:"1"}}
-                    />
-                    <Image
-                        src={"/dropdodge.png"}
-                        alt={"dropdodge"}
-                        width={350}
-                        height={100}
-                        className={"dropdodge1 animate-right"}
-                        style={{zIndex:"1"}}
+                        className={"phantompets1 animate-right"}
                     />
                 </div>
+
                 <div className="title-primary flex flex-col items-center justify-center mx-4 mt-4">
                     <h1 className="user-title"
                         style={{ textAlign: "center", fontSize:"70px", fontFamily:"Rubik", fontWeight:"Bolder"}}

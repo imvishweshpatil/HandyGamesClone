@@ -2,6 +2,10 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import "../globals.css";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import { faAmazon, faSteam, faGooglePlay, faAppStoreIos, faMicrosoft } from "@fortawesome/free-brands-svg-icons";
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
+
 
 const images = [
     "/image1.jpg",
@@ -40,91 +44,85 @@ const GamePreview = () => {
                      style={{ zIndex: "2", marginTop: "120px", left: "0", top: "0" }}
                 >
                     <h1 className="game-info-heading text-white"
-                        style={{ fontSize: "80px", fontWeight: "bolder", textAlign: "left", fontFamily: "Eczar" }}
+                        style={{ fontSize: "88px", fontWeight: "bolder", textAlign: "left", fontFamily: "Eczar", letterSpacing:"4px" }}
                     >
                         Lets Start
                     </h1>
 
                     <h1 className="game-info-heading text-white"
-                        style={{ fontSize: "80px", fontWeight: "bolder", marginTop: "5px", fontFamily: "Eczar", textAlign: "left" }}
+                        style={{ fontSize: "82px", fontWeight: "bolder", marginTop: "20px", fontFamily: "Eczar", textAlign: "left", letterSpacing:"3px" }}
                     >
                         the game
                     </h1>
 
                     <p className="game-info-description text-white"
-                       style={{ fontSize: "20px", marginTop: "10px", width: "30%", textAlign: "left" }}
+                       style={{ fontSize: "20px", marginTop: "10px", width: "35%", textAlign: "left", fontFamily:"Karla" }}
                     >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet rhoncus arcu, id egestas lacus. Cras vel ullamcorper dolor. Aliquam gravida dapibus orci nec pharetra.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet rhoncus arcu, id egestas lacus. Cras vel ullamcorper dolor.
                     </p>
 
-                    <button className="buynow-btn text-white p-2 rounded mt-4 mr-6"
-                            style={{fontSize:"16px", backgroundColor:"grey", width:"120px"}}
+                    <button className="buynow-btn text-white p-2 rounded mt-2 mr-6"
+                            style={{fontSize:"18px", backgroundColor:"grey", width:"120px", fontFamily:"Karla"}}
                     >
                         Buy Now
                     </button>
 
-                    <button className="play-btn text-white p-2 rounded mt-4 border border-light"
-                            style={{ fontSize: "16px", width: "120px" }}
+                    <button className="play-btn text-white p-2 rounded mt-2 border border-light"
+                            style={{ fontSize: "18px", width: "120px", fontFamily:"Karla" }}
                     >
                         Play
                     </button>
 
-                    <h3 className="available text-white mt-5"
-                        style={{fontSize:"20px"}}
+                    <h3 className="available text-white"
+                        style={{fontSize:"30px", fontFamily:"Rubik", marginTop:"44px"}}
                     >
                         Available on:
                     </h3>
-                    <div className="game-platform flex mt-1">
-                        <Image
-                            src={"/featuregame-amazon.png"}
-                            alt={"appstore"}
-                            width={150}
-                            height={150}
-                            className={"platform p-4"}
-                            style={{marginLeft:"-25px"}}
+                    <div className="game-platform flex w-75 gap-6">
+                        <FontAwesomeIcon
+                            icon={faAmazon as IconProp}
+                            size="3x"
+                            className="platform p-4"
+                            style={{ marginLeft: "-25px", color: "#ffffff" }}
                         />
-                        <Image
-                            src={"/featuregame-steam.png"}
-                            alt={"appstore"}
-                            width={150}
-                            height={50}
-                            className={"platform p-4"}
+                        <FontAwesomeIcon
+                            icon={faSteam as IconProp}
+                            size="3x"
+                            className="platform p-4"
+                            style={{ marginLeft: "-25px", color: "#ffffff" }}
                         />
-                        <Image
-                            src={"/featuregame-googleplay.png"}
-                            alt={"appstore"}
-                            width={100}
-                            height={100}
-                            className={"platform p-4"}
+                        <FontAwesomeIcon
+                            icon={faGooglePlay as IconProp}
+                            size="3x"
+                            className="platform p-4"
+                            style={{ marginLeft: "-25px", color: "#ffffff" }}
                         />
-                        <Image
-                            src={"/featuregame-appstore.png"}
-                            alt={"appstore"}
-                            width={100}
-                            height={100}
-                            className={"platform p-4"}
+                        <FontAwesomeIcon
+                            icon={faAppStoreIos as IconProp}
+                            size="3x"
+                            className="platform p-4"
+                            style={{ marginLeft: "-25px", color: "#ffffff" }}
                         />
-                        <Image
-                            src={"/featuregame-microsoftstore.png"}
-                            alt={"appstore"}
-                            width={100}
-                            height={100}
-                            className={"platform p-4"}
+                        <FontAwesomeIcon
+                            icon={faMicrosoft as IconProp}
+                            size="3x"
+                            className="platform p-4"
+                            style={{ marginLeft: "-25px", color: "#ffffff" }}
                         />
                     </div>
                 </div>
 
                 <div className="game-images" style={{zIndex:"1"}}>
-                {images.map((image, index) => (
-                    <Image
-                        key={index}
-                        src={image}
-                        alt={`image${index + 1}`}
-                        layout="fill"
-                        objectFit="cover"
-                        style={{opacity: index === currentIndex ? 1 : 0, transition: "opacity 1s ease-in-out" }}
-                    />
-                ))}
+                    {images.map((image, index) => (
+                        <Image
+                            key={index}
+                            src={image}
+                            alt={`image${index + 1}`}
+                            layout="fill"
+                            objectFit="cover"
+                            style={{opacity: index === currentIndex ? 1 : 0, transition: "opacity 1s ease-in-out" }}
+                        />
+                    ))}
                 </div>
             </div>
             {/*<div style={{ textAlign: "center", position: "relative", bottom: "10px", left: "50%", transform: "translateX(-50%)", zIndex: 2}}>
