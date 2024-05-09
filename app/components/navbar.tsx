@@ -21,7 +21,7 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <div className="icon flex items-center justify-end sm:hidden">
+                <div className="flex grow items-center justify-end sm:hidden">
                     <MagnifyingGlassIcon className="icons h-6 w-6 text-white" style={{marginRight:"20px"}}></MagnifyingGlassIcon>
                     <Popover.Button className="inline-flex items-center justify-center rounded-md  p-2 text-gray-400 hover:bg-black-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                         <span className="sr-only">Open menu</span>
@@ -29,7 +29,7 @@ const Navbar = () => {
                     </Popover.Button>
                 </div>
 
-                <Popover.Panel focus className={"absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden"}>
+                <Popover.Panel focus className={"absolute flex items-center justify-end inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden"}>
                     <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 divide-y-2 divide-gray-50 w-100 h-100 bg-white"> {/*style={{backgroundColor:"#8ed1fc"}}*/}
                         <div className="px-5 pt-5 pb-6">
                             <div className="flex items-center justify-between">
