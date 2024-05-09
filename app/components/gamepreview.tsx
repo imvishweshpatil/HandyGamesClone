@@ -74,27 +74,42 @@ const GamePreview = () => {
                     >
                         Available on:
                     </h3>
-                    <div className="game-platform flex gap-8 mt-3">
+                    <div className="game-platform flex mt-1">
                         <Image
-                            src={"/featuregame-w10.png"}
+                            src={"/featuregame-amazon.png"}
                             alt={"appstore"}
                             width={150}
                             height={150}
-                            className={"platform"}
+                            className={"platform p-4"}
+                            style={{marginLeft:"-25px"}}
                         />
                         <Image
-                            src={"/featuregame-xbox.png"}
+                            src={"/featuregame-steam.png"}
+                            alt={"appstore"}
+                            width={150}
+                            height={50}
+                            className={"platform p-4"}
+                        />
+                        <Image
+                            src={"/featuregame-googleplay.png"}
                             alt={"appstore"}
                             width={100}
                             height={100}
-                            className={"platform"}
+                            className={"platform p-4"}
                         />
                         <Image
-                            src={"/featuregame-nintendoswitch.png"}
+                            src={"/featuregame-appstore.png"}
                             alt={"appstore"}
                             width={100}
                             height={100}
-                            className={"platform"}
+                            className={"platform p-4"}
+                        />
+                        <Image
+                            src={"/featuregame-microsoftstore.png"}
+                            alt={"appstore"}
+                            width={100}
+                            height={100}
+                            className={"platform p-4"}
                         />
                     </div>
                 </div>
