@@ -1151,7 +1151,7 @@
         overflow: hidden;
     }
 
-    @keyframes slideInLeft {
+    /*@keyframes slideInLeft {
         0% {
             transform: translateX(-100%);
             opacity: 0;
@@ -1194,7 +1194,7 @@
 
     .animate-back {
         animation: slideInBack 4s forwards;
-    }
+    }*/
 
     .dropdodge {
         margin-right: -12px !important;
@@ -1470,7 +1470,7 @@
         justify-content: center;
     }
 
-    @keyframes slideInLeft {
+    /*@keyframes slideInLeft {
         0% {
             transform: translateX(-100%);
             opacity: 0;
@@ -1513,7 +1513,7 @@
 
     .animate-back {
         animation: slideInBack 4s forwards;
-    }
+    }*/
 
     .dropdodge {
         margin:0 -61px 0 0 !important;
@@ -1762,7 +1762,7 @@
         font-size: 18px !important;
     }
 
-    @keyframes slideInLeft {
+    /*@keyframes slideInLeft {
         0% {
             transform: translateX(-100%);
             opacity: 0;
@@ -1805,7 +1805,7 @@
 
     .animate-back {
         animation: slideInBack 4s forwards;
-    }
+    }*/
 
     .dropdodge {
         margin-right: -23px !important;
@@ -1840,7 +1840,11 @@
         width: 100% !important;
     }
 
-    @keyframes slideInLeft {
+    .game-info {
+        position: absolute !important;
+    }
+
+    /*@keyframes slideInLeft {
         0% {
             transform: translateX(-100%);
             opacity: 0;
@@ -1883,7 +1887,7 @@
 
     .animate-back {
         animation: slideInBack 0.5s forwards;
-    }
+    }*/
 
     .phantompets {
         width: 165px !important;
@@ -1908,4 +1912,34 @@
         font-size: 30px !important;
     }
 
+}
+
+@media only screen and (min-width: 2560px) and (max-width: 7680px) {
+    .game-info {
+        position: absolute !important;
+        transform: translateY(50%) !important;
+        margin-top: 0px !important;
+    }
+
+    .game-info-heading {
+        font-size: 140px !important;
+    }
+
+    .game-info-description {
+        font-size: 39px !important;
+    }
+
+    .buynow-btn, .play-btn {
+        font-size: 38px !important;
+        width: 200px !important;
+    }
+
+    .available {
+        font-size: 50px !important;
+    }
+
+    .platform {
+        width: 80px !important;
+        height: 80px !important;
+    }
 }
